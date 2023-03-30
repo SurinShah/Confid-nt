@@ -1,46 +1,69 @@
-# Confidænt
+# Web-Scraper
 
-Confidænt is a women safety web application which generates the safest route of travel from a woman’s current location to any destination using the Google Maps API.
-
+We have created a Web Scraping Website which scrapes text contents for an entered website. In this project, data is scraped based on two parameters - the url and the keywords that are provided by the user.  Any result that is displayed will take both these parameters into account.
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [About](#about)
-- [Features](#features)
-- [Tech-Stack](#tech-stack)
+- [Objectives](#objectives)
+- [Objectives completed](#objectives-completed)
+- [Usage](#usage)
+  - [Installation](#installation)
+  - [Navigation](#navigation)
 - [Team](#team)
-  
+  - [Mentors:](#mentors)
+  - [Members:](#members)
 
-## About
-* Confidænt is a women safety web application which generates the safest route of travel from a woman’s current location to any destination using the Google Maps API.
-* Although Google Maps shows the shortest path from a starting point to a destination, it does not always show the safest path.
-This web application integrates that feature along with the danger index of a path to map the safest route possible. We assess this 'Danger Index' by using unsupervised machine learning on historical crime data/records. 
-* The web application also has a provision to allow women to retrieve their location coordinates, and share them with her contacts. 
-* This app is specifically curated to reduce the possibility of traveling through areas with known incidents of crime against women or high crime rates in general.
+## Objectives
+* URL and keywords are accepted from the user.
+* The data is scraped in accordance with these parameters.
+* Scraped data is delivered to the user in an ordered format.
 
-## Features
-The following are the features of our website:
-  * Safe Routing: A map that provides the safety index for  multiple paths
-  * Retrieval of location coordinates: A woman can retrieve their current location coordinates
-  * Location sharing: A woman can share her current location coordinates through any convenient application
+## Objectives completed 
+We have successfully completed all the three objectives
+  1. We have been able to accept the URL and Keywords from the user.
+  2. Using Beautiful Soup, we have successfully scraped the data according to the parameters provided by the user.
+  3. Using Flask and Jinja2 Templating, we have displayed the results on our webpage.
 
-## Tech-Stack
-* Data analysis and visualization: Python
-* API : Google Maps API (for routing), Web Share API (for location sharing)
-* UI DESIGN : Figma, Canva
-* FRONT-END WEB DEVELOPMENT : HTML5, CSS3, JavaScript
-* Server side : JavaScript
-* Database connectivity  : MySQL, PHP
+## Usage
 
+### Installation 
+
+<details>
+    <summary><b>Windows, Ubuntu and MacOs</b></summary>
+
+   1. Make sure you have the Python Interpreter with the following modules installed :
+      -requests
+      -re
+      -bs4
+      -flask
+  2. Clone the repository or Download the Code
+  3. Open your terminal and run the python file (app.py)
+  4. A link will appear after running this file.
+  5. Click on this link and use the web scraper.
+</details>
+
+### Navigation
+
+<details>
+    <summary><b>Instructions for using the Scraper</b></summary>
+
+   1. After you open the website on your preffered browser, Input the required url along with the necessary keywords.
+   2. Press the Enter button on your keyboard.
+   3. You will then be redirected to the results page where the scraped data result will be displayed.
+</details>
 
 ## Team
 
+### Mentors:
+Irfan Siddavatam ( irfansiddavatam@somaiya.edu )<br>
+Ashwini Dalvi ( ashwinidalvi@somaiya.edu )
 
 ### Members:
 | Sr No. | Name               | E-mail                       | git-profile     |
 | -------| -------------------| -----------------------------| ----------------|
-| 1.     | Diti Divekar       |diti.divekar@somaiya.edu      | DITI2209        |
-| 2.     | Shriya Pingulkar   |shriya.pingulkar@somaiya.edu  | shriya02-coder  |                         
-| 3.     | Surin Shah         |surin.shah@somaiya.edu        | SurinShah       |
-| 4.     | Shreyas Panchikatil|p.susheelkumar@somaiya.edu.   | Baka-boy        |
-
+| 1.     | Shruti Tyagi       | shruti.tyagi@somaiya.edu     | shrutityagi4102 |
+| 2.     | Diti Divekar       | diti.divekar@somaiya.edu     | DITI2209        |
+| 3.     | Aryaman Tiwary     | aryaman.tiwary@somaiya.edu   | Aryaman0809     |
+| 4.     | Shriya Pingulkar   | shriya.pingulkar@somaiya.edu | shriya02-coder  |
+| 5.     | Surin Shah         | surin.shah@somaiya.edu       | SurinShah       |
+| 6.     | Maryam Bhinderwala | m.bhinderwala@somaiya.edu    | maryamb-24      |
